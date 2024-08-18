@@ -43,8 +43,8 @@ Fonts here are used by both the loc tool and the game.
 
 .font-tiny {
     font-family: 'tiny';
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 8px !important;
+    line-height: 8px !important;
 }
 
 /*---- small -------------------------------------------------*/
@@ -55,8 +55,8 @@ Fonts here are used by both the loc tool and the game.
 
 .font-small_tight {
     font-family: 'small_tight';
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 8px !important;
+    line-height: 8px !important;
 }
 
 @font-face {
@@ -66,8 +66,8 @@ Fonts here are used by both the loc tool and the game.
 
 .font-small_harsh {
     font-family: 'small_harsh';
-    font-size: 8px;
-    line-height: 9px;
+    font-size: 8px !important;
+    line-height: 9px !important;
 }
 
 /*---- regular -------------------------------------------------*/
@@ -79,8 +79,8 @@ Fonts here are used by both the loc tool and the game.
 .font-regular,
 body {
     font-family: 'regular';
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 8px !important;
+    line-height: 8px !important;
 }
 
 @font-face {
@@ -90,8 +90,8 @@ body {
 
 .font-regular_short {
     font-family: 'regular_short';
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 8px !important;
+    line-height: 8px !important;
 }
 
 /*---- title -------------------------------------------------*/
@@ -102,8 +102,8 @@ body {
 
 .font-title_tall {
     font-family: 'title_tall';
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 16px !important;
+    line-height: 16px !important;
 }
 
 @font-face {
@@ -113,8 +113,8 @@ body {
 
 .font-title_news {
     font-family: 'title_news';
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 16px !important;
+    line-height: 16px !important;
 }
 
 @font-face {
@@ -124,8 +124,8 @@ body {
 
 .font-title_thick {
     font-family: 'title_thick';
-    font-size: 14px;
-    line-height: 11px;
+    font-size: 14px !important;
+    line-height: 11px !important;
 }
 
 /*---- ui -------------------------------------------------*/
@@ -136,8 +136,8 @@ body {
 
 .font-ui_regular {
     font-family: 'ui_regular';
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 8px !important;
+    line-height: 8px !important;
 }
 
 /*---- large -------------------------------------------------*/
@@ -148,8 +148,8 @@ body {
 
 .font-large {
     font-family: 'large';
-    font-size: 8px;
-    line-height: 10px;
+    font-size: 8px !important;
+    line-height: 10px !important;
 }
 
 /* 
@@ -171,8 +171,8 @@ Fonts below here are used only by the loc tool and don't appear in the game.
 
 .font-small {
     font-family: 'small';
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 8px !important;
+    line-height: 8px !important;
 }
 
 /*---- generic serif -------------------------------------------------*/
@@ -184,8 +184,8 @@ Fonts below here are used only by the loc tool and don't appear in the game.
 
 .font-title_serif {
     font-family: 'title_serif';
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 10px !important;
+    line-height: 10px !important;
 }
 
 /*---- cursive -------------------------------------------------*/
@@ -197,8 +197,8 @@ Fonts below here are used only by the loc tool and don't appear in the game.
 
 .font-cursive {
     font-family: 'cursive';
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 8px !important;
+    line-height: 8px !important;
 }
 
 /*---- scribble -------------------------------------------------*/
@@ -211,8 +211,8 @@ Fonts below here are used only by the loc tool and don't appear in the game.
 
 .font-scribble {
     font-family: 'scribble';
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 16px !important;
+    line-height: 16px !important;
 }
 
 /*---- passport countries -------------------------------------------------*/
@@ -245,9 +245,9 @@ Fonts below here are used only by the loc tool and don't appear in the game.
 
 .font-press {
     font-family: 'press';
-    font-size: 22px;
-    line-height: 22px;
-    font-variation-settings: 'wght' 900;
+    font-size: 22px !important;
+    line-height: 22px !important;
+    font-variation-settings: 'wght' 900 !important;
 }
 
 @font-face {
@@ -258,8 +258,8 @@ Fonts below here are used only by the loc tool and don't appear in the game.
 
 .font-propaganda {
     font-family: 'propaganda';
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 10px !important;
+    line-height: 10px !important;
 }
 
 @font-face {
@@ -270,9 +270,9 @@ Fonts below here are used only by the loc tool and don't appear in the game.
 
 .font-kid_writing {
     font-family: 'kid_writing';
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: bold;
+    font-size: 16px !important;
+    line-height: 16px !important;
+    font-weight: bold !important;
 }
 
 @font-face {
@@ -283,13 +283,13 @@ Fonts below here are used only by the loc tool and don't appear in the game.
 
 .font-news {
     font-family: 'news';
-    font-size: 23px;
-    line-height: 34px;
-    font-weight: normal;
+    font-size: 23px !important;
+    line-height: 34px !important;
+    font-weight: normal !important;
 }
 
 body {
-    font-smooth: never;
-    -webkit-font-smoothing: none;
+    font-smooth: never !important;
+    -webkit-font-smoothing: none !important;
     text-rendering: optimizeSpeed !important;
 }
